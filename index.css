@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+ 
+  overflow: hidden; 
+}
+.nav{
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+
+}
+.nav-links a{
+  text-decoration: none;
+  padding: 50px;
+  font-size: 20px;
+  color: rgb(105, 102, 102);
+  font-family: sans-serif;
+}
+@media (min-width:300px) and ( max-width:1200px){
+  .nav-links a{
+  padding: 20px;
+  }
+}
+.nav-links{
+  margin-top: 10px;
+}
+.name{
+  color: blue;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-color: skyblue;
+  padding: 10px;
+  height: 20px;
+  width: 120px;
+  text-align: center;
+  margin: 15px;
+}
+.hero{
+ height: 100vh;
+  
+}
+
+.left{
+  text-align: left;
+  font-size: 30px;
+  margin-left: 50px;
+   color: rgb(49, 44, 44);
+   float: left;
+   width: 40%;
+}
+@media (min-width:600px) and ( max-width:1100px){
+  .left{
+  font-size: 25px;
+  margin-left: 30px;
+  }
+}
+@media(max-width:600px){
+  .left{
+    font-size: 15px;
+  }
+}
+p{
+  font-size: 30px;
+  color: gray;
+}
+@media (min-width:500px) and ( max-width:1100px){
+  p{
+    font-size: 20px;
+  }
+}
+@media(max-width:500px){
+  p{
+    font-size: 15px;
+  }
+}
+.btn{
+  color: aliceblue;
+  background-color: rgb(32, 137, 178);
+  padding: 20px;
+  font-size: large;
+ font-weight: bold;
+ font-family: sans-serif;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+@media (min-width:300px) and ( max-width:1100px){
+.btn{
+  padding: 15px;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+}
+.right{
+  float: right;
+  width: 40%;
+  margin-top: 20px; 
+}
+@media (min-width:300px) and ( max-width:1100px){
+  .image{
+    width: 80%;
+    height: 400px;
+    margin-right: 40px;
+  }
+}

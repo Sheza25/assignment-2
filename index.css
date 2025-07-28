@@ -80,7 +80,7 @@ p{
 .btn{
   color: aliceblue;
   background-color: rgb(32, 137, 178);
-  padding: 20px;
+  padding: 10px;
   font-size: large;
  font-weight: bold;
  font-family: sans-serif;
@@ -105,6 +105,6 @@ p{
   .image{
     width: 80%;
     height: 200px;
-    margin-right: 20px;
+    margin-right: 50px;
   }
 }

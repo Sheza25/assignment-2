@@ -20,6 +20,7 @@ body {
 @media (min-width:300px) and ( max-width:1200px){
   .nav-links a{
   padding: 20px;
+    font-size:10px;
   }
 }
 .nav-links{

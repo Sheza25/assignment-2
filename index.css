@@ -63,8 +63,8 @@ body {
     font-size: 10px;
   }
 }
-h1{
-  margin-top:5px;
+.left>h1{
+  margin-top:10px;
 }
 p{
   font-size: 30px;

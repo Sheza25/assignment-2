@@ -47,7 +47,7 @@ body {
 
 .left{
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 50px;
    color: rgb(49, 44, 44);
    float: left;
@@ -55,7 +55,7 @@ body {
 }
 @media (min-width:600px) and ( max-width:1100px){
   .left{
-  font-size: 25px;
+  font-size: 15px;
   margin-left: 30px;
   }
 }
